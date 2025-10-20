@@ -82,4 +82,4 @@ Use these files to complete the implementation:
 
 </details>
 
-PubilcLink-(https://rithikreuban.ccbp.tech)
+PubilcLink-[rithikreuban.ccbp.tech](https://rithikreuban.ccbp.tech)

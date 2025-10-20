@@ -1,0 +1,73 @@
+/* Background styles for different card classes */
+.card-1 {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-1-bg.png');
+  background-size: cover;
+}
+
+.card-2 {
+  display: flex;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-2-bg.png');
+  background-size: cover;
+}
+
+.card-3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/reusable-banners-card-3-bg.png');
+  background-size: cover;
+}
+
+/* Text and button styles */
+.heading {
+  font-family: Roboto;
+  font-size: 30px;
+  color: #326a9d;
+}
+
+.para {
+  font-family: Roboto;
+  font-size: 18px;
+  color: #64748b;
+}
+
+.btn {
+  background-color: #ffffff;
+  border: 2px solid #326a9d;
+  border-radius: 4px;
+  color: #326a9d;
+  height: 30px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+
+/* Responsive styles for small screens */
+@media screen and (max-width: 576px) {
+  .card-1,
+  .card-2,
+  .card-3 {
+    list-style: none;
+    padding: 20px;
+    height: 270px;
+    width: 270px;
+    border: 2px solid #cbced2;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}
+
+/* Responsive styles for larger screens */
+@media screen and (min-width: 576px) {
+  .card-1,
+  .card-2,
+  .card-3 {
+    list-style: none;
+    padding: 20px;
+    height: 270px;
+    width: 900px;
+    border: 2px solid #cbced2;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+}
